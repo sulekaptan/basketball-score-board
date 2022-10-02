@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.score {
+    background: linear-gradient(90deg, #cfd9df 0%, #e2ebf0 100%);
+    font-size: 90px;
+    color:  #ab4a09;;
+    width: 120px;
+    margin: 20px;
+    font-family: 'analog'; 
+}
+.team{
+    margin: auto;
+}
+.team h3{
+    color: #ab4a09;
+    width: 149px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'analog';              
+}
+.container {
+    background: linear-gradient(151.98deg, rgba(255, 255, 255, 0.4) 1.38%, rgba(255, 255, 255, 0.1) 95.28%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(16.5px);
+    margin: 50px auto;
+    display: flex;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    padding: 10px;
+    max-width: 700px;
+    border-radius: 2em;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+    color: #ab4a09;
+
+}
+button {
+    background: linear-gradient(151.98deg, rgba(255, 255, 255, 0.4) 1.38%, rgba(255, 255, 255, 0.1) 95.28%);
+    border: none;
+    width: 25%;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'analog';
+    color: #6a2e07;
+
+}
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+    }
+    .team h3 {
+        font-size: 25px;
+    }
+    body{
+        height: 100%;
+    }
+}    
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 300px;
+        height: 600px;
+    }
+    .team h3 {
+        font-size: 20px;
+    }
+    body{
+        height: 100vh;
+    }
+}    
+
+    
