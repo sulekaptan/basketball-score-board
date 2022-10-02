@@ -9,29 +9,26 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/png" href="./assets/icon-basketball.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>L E T 'S <br> PLAY THE GAME! 🚀</h1>
     <div class="container">
-        
         <div class="team home">
             <h3>HOME</h3>
-            <div class="score">0</div>
+            <div class="score" id="home-score">0</div>
             <div class="buttons">
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="homeIncrementOne()">+1</button>
+                <button onclick="homeIncrementTwo()">+2</button>
+                <button onclick="homeIncrementThree()">+3</button>
             </div>
         </div>
         <div class="team guest">
             <h3>GUEST</h3>
-            <div class="score">0</div>
+            <div class="score" id="guest-score">0</div>
             <div class="buttons">
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="guestIncrementOne()">+1</button>
+                <button onclick="guestIncrementTwo()">+2</button>
+                <button onclick="guestIncrementThree()">+3</button>
             </div>
         </div>
 
