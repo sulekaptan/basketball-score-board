@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    text-align: center;
     background-image: linear-gradient(to right bottom, #f25d26, #ee8533, #eaa54d, #e7c170, #e8da99);    
     height: 100vh;
 }

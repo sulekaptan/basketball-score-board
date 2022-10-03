@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    text-align: center;
-}
-
 .score {
     background: linear-gradient(90deg, #cfd9df 0%, #e2ebf0 100%);
     font-size: 90px;
@@ -22,7 +17,7 @@ body {
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-    font-family: 'analog';              
+    font-family: 'analog', sans-serif, serif, monospace;              
 }
 .container {
     background: linear-gradient(151.98deg, rgba(255, 255, 255, 0.4) 1.38%, rgba(255, 255, 255, 0.1) 95.28%);
@@ -49,9 +44,14 @@ button {
     height: 35px;
     font-weight: bold;
     text-align: center;
-    font-family: 'analog';
+    font-family: 'analog', sans-serif, serif, monospace;              
     color: #6a2e07;
 
+}
+button:hover {
+    background: linear-gradient(90deg, #cfd9df 0%, #e2ebf0 100%);
+    color: #ab4a09;
+    cursor: pointer;
 }
 @media screen and (max-width: 700px) {
     .container {
@@ -66,7 +66,6 @@ button {
         height: 100%;
     }
 }    
-
 @media screen and (max-width: 600px) {
     .container {
         flex-direction: column;
